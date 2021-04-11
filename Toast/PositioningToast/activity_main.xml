@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:padding="16dp" 
+    android:gravity="center" 
+    android:orientation="vertical" 
+    tools:context=".MainActivity"> 
+	 
+    <Button 
+        android:id="@+id/simple_toast" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Simple Toast" 
+        android:onClick="buttonClick" 
+        android:backgroundTint="#6200EE" 
+        android:textColor="#ffffff"/> 
+ 
+    <Button 
+        android:id="@+id/top_toast" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Top" 
+        android:onClick="buttonClick" 
+        android:backgroundTint="#6200EE" 
+        android:textColor="#ffffff"/> 
+	 
+    <Button 
+        android:id="@+id/botton_toast" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Bottom" 
+        android:onClick="buttonClick" 
+        android:backgroundTint="#6200EE" 
+        android:textColor="#ffffff"/> 
+	 
+    <Button 
+        android:id="@+id/center_toast" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Center" 
+        android:onClick="buttonClick" 
+        android:backgroundTint="#6200EE" 
+        android:textColor="#ffffff"/> 
+ 
+    <Button 
+        android:id="@+id/left_toast" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="left" 
+        android:onClick="buttonClick" 
+        android:backgroundTint="#6200EE" 
+        android:textColor="#ffffff"/> 
+ 
+    <Button 
+        android:id="@+id/right_toast" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Right" 
+        android:onClick="buttonClick" 
+        android:backgroundTint="#6200EE" 
+        android:textColor="#ffffff"/> 
+	 
+    <Button 
+        android:id="@+id/top_left_toast" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Top Left" 
+        android:onClick="buttonClick" 
+        android:backgroundTint="#6200EE" 
+        android:textColor="#ffffff"/> 
+    <Button 
+        android:id="@+id/top_right_toast" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Top Right" 
+        android:onClick="buttonClick" 
+        android:backgroundTint="#6200EE" 
+        android:textColor="#ffffff"/> 
+	 
+    <Button 
+        android:id="@+id/bottom_left_toast" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Bottom Left" 
+        android:onClick="buttonClick" 
+        android:backgroundTint="#6200EE" 
+        android:textColor="#ffffff"/> 
+    <Button 
+        android:id="@+id/bottom_right_toast" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Bottom Right" 
+        android:onClick="buttonClick" 
+        android:backgroundTint="#6200EE" 
+        android:textColor="#ffffff"/> 
+ 
+</LinearLayout>

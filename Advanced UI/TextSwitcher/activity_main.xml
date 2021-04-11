@@ -1,0 +1,56 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:background="@color/white" 
+    tools:context=".MainActivity"> 
+ 
+        <TextView 
+            android:id="@+id/heading" 
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:text="Sayings of Hazrat Ali (A.S)" 
+            android:textSize="28sp" 
+            android:textAlignment="center" 
+            android:textColor="@color/black" 
+            android:textStyle="bold"/> 
+ 
+        <TextSwitcher 
+            android:id="@+id/textSwitcher" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_centerHorizontal="true" 
+            android:layout_marginTop="16dp" 
+            android:layout_below="@id/heading" 
+            android:background="@color/blue" 
+           /> 
+ 
+        <LinearLayout 
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:orientation="horizontal" 
+            android:layout_alignParentBottom="true"> 
+ 
+			<Button 
+				android:id="@+id/btnPrevious" 
+				android:layout_width="0dp" 
+				android:layout_height="wrap_content" 
+				android:layout_weight="1" 
+				android:text="Previous" 
+				android:onClick="onClick" 
+				/> 
+	 
+ 
+               <Button 
+                    android:id="@+id/btnNext" 
+                    android:layout_width="0dp" 
+                    android:layout_height="wrap_content" 
+                    android:layout_weight="1" 
+                    android:text="Next" 
+                    android:onClick="onClick" 
+                    /> 
+
+        </LinearLayout> 
+ 
+</RelativeLayout> 

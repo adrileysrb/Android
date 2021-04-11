@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:orientation="vertical" 
+    android:padding="16dp" 
+    tools:context=".MainActivity"> 
+	 
+    <TextView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="50dp" 
+        android:text="Programming Language" 
+        android:textColor="@android:color/black" 
+        android:textSize="20sp" 
+        android:textStyle="bold" 
+        android:layout_gravity="center" /> 
+	 
+    <CheckBox 
+        android:id="@+id/checkb1" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Java" 
+        android:layout_marginTop="20dp"/> 
+ 
+    <CheckBox 
+        android:id="@+id/checkb2" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Python" /> 
+	 
+    <CheckBox 
+        android:id="@+id/checkb3" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="JavaScript"/> 
+ 
+    <Button 
+        android:id="@+id/button_submit" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="submit" 
+        android:layout_gravity="center" 
+        android:layout_marginTop="25dp" 
+        android:backgroundTint="@color/colorPrimary" 
+        android:textColor="@android:color/white"/> 
+	 
+</LinearLayout> 
